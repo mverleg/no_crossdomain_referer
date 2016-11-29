@@ -1,0 +1,24 @@
+{
+  "title": "No cross-domain referer",
+  "name": "nocrossdomainreferer",
+  "version": "1.0.0",
+  "description": "This simple add-on changes Firefox settings such that the referer(referrer) header is sent only within a domain, not when linking to other domain. This prevents websites from knowing how you reached them, which might be desirable for privacy reasons, without breaking most websites that check referer header.",
+  "main": "index.js",
+  "author": "Mark",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "BSD",
+  "keywords": [
+    "jetpack",
+	"referer",
+	"referrer",
+	"privacy",
+	"header"
+  ],
+  "permissions": {
+    "multiprocess": true
+  }
+}
+
