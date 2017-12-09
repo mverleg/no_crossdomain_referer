@@ -24,12 +24,12 @@ It does not change ``network.http.referer.spoofSource``, since some websites rel
 Contributions
 ---------------------------------------
 
-Any additional blocking rules are most welcome! You can request them at https://github.com/mverleg/block_comments/issues
+Any additional blocking rules are most welcome! You can request them at https://github.com/mverleg/no_crossdomain_referer/issues
 
 License
 ---------------------------------------
 
-Revised BSD License, see https://github.com/mverleg/block_comments/blob/master/LICENSE.txt. You can use the addon as you choose, without warranty. The code is also available, see Contributors.
+Revised BSD License, see https://github.com/mverleg/no_crossdomain_referer/blob/master/LICENSE.txt. You can use the addon as you choose, without warranty. The code is also available, see Contributors.
 
 Other addons
 ---------------------------------------
