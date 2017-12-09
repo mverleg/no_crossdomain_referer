@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Block read more",
+  "version": "2.0.0",
+  "author": "Mark",
+  "homepage_url": "https://github.com/mverleg/block_read_more",
+  "description": "Removes distracting 'read more' sections on a select number of websites.",
+  "icons": {
+    "128": "ncd.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "jid1-qASpCaDnZEdOqw@jetpack",
+      "strict_min_version": "48.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["src/block_read_more_youtube.css"]
+    }
+  ]
+}

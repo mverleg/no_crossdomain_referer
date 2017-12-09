@@ -7,7 +7,7 @@ var prefs = require('sdk/preferences/service');
 prefs.set('network.http.referer.XOriginPolicy', 1);
 
 // Only include the domain name in the referer header.
-prefs.set('network.http.referer.trimmingPolicy', 2)
+prefs.set('network.http.referer.trimmingPolicy', 2);
 
 // Do not send pings for anchors that request them (already default).
 // prefs.set('browser.send_pings', false);
